@@ -10,6 +10,4 @@
 - Email: dhiranesh2017@gmail.com  
 - LinkedIn: https://www.linkedin.com/in/dhiranesh-k-m-ba3a22291  
 
-😄 Pronouns: He/Him  
-
 ⚡ Fun fact: I enjoy turning complex AI ideas into working systems and optimizing them to run efficiently on real hardware
