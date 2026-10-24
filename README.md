@@ -59,15 +59,3 @@ I'm a B.Tech Artificial Intelligence and Data Science student at **K. S. Rangasa
   <img src="https://img.shields.io/badge/Kubernetes-172554?style=for-the-badge&logo=kubernetes&logoColor=326CE5" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/Git-172554?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
 </p>
-
-## 3D Contribution Graph
-
-<div align="center">
-
-<img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D GitHub contribution graph" width="100%" />
-
-</div>
-
-<div align="center">
-  <sub>Researching and building systems for faster, more efficient AI inference.</sub>
-</div>
