@@ -1,111 +1,73 @@
 <div align="center">
 
-<img src="./assets/inference-hero.svg" alt="Dhiranesh K M | AI research, LLM inference and GPU infrastructure" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:0F766E,100:0891B2&height=155&section=header&text=Dhiranesh%20K%20M&fontSize=42&fontColor=F8FAFC&fontAlignY=37&desc=AI%20Research%20%7C%20LLM%20Inference%20%7C%20GPU%20Infrastructure&descAlignY=59&descSize=14&animation=twinkling" width="100%" alt="Dhiranesh K M | AI Research, LLM Inference and GPU Infrastructure" />
 
-<p>
-  <a href="https://github.com/dhiranesh"><img src="https://img.shields.io/badge/GitHub-Profile-101827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
-  <a href="https://www.linkedin.com/in/dhiranesh-k-m-ba3a22291/"><img src="https://img.shields.io/badge/LinkedIn-Connect-101827?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
-  <a href="mailto:dhiranesh2017@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-101827?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
-</p>
+<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=700&height=30&lines=Building+and+benchmarking+AI+systems;Exploring+LLM+inference+and+GPU+infrastructure;Interested+in+performance%2C+reliability%2C+and+scale" alt="Animated tagline" /></a>
 
-<sub>AI Research Intern · K. S. Rangasamy College of Technology · India</sub>
+<a href="https://github.com/dhiranesh"><img src="https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/dhiranesh-k-m-ba3a22291/"><img src="https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+<a href="mailto:dhiranesh2017@gmail.com"><img src="https://img.shields.io/badge/Email-0B1220?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
 
 </div>
-
----
 
 ## About
 
-I'm a B.Tech Artificial Intelligence and Data Science student and an **AI Research Intern at IITM Pravartak Technologies Foundation**. I’m interested in building AI systems that are faster, observable, and reliable, from model serving to GPU data movement.
+I'm a B.Tech Artificial Intelligence and Data Science student at **K. S. Rangasamy College of Technology** and an **AI Research Intern at IITM Pravartak Technologies Foundation**. I’m interested in building efficient, observable, and reliable AI inference systems.
 
-## Core contribution areas
+## Core Contribution Areas
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>01 / LLM inference</h3>
-      Serving with <code>vLLM</code> and <code>SGLang</code>, request routing, continuous batching, scheduling, KV-cache management, and prefill/decode disaggregation.
+      <strong>01 · LLM Inference</strong><br />
+      Model serving, workload-aware routing, batching, scheduling, KV-cache management, and prefill/decode disaggregation with <code>vLLM</code> and <code>SGLang</code>.
     </td>
     <td width="50%" valign="top">
-      <h3>02 / GPU infrastructure</h3>
-      Multi-GPU execution, GPU utilization, PCIe peer-to-peer (P2P), RDMA, and GPU-to-GPU data movement research.
+      <strong>02 · GPU Infrastructure</strong><br />
+      Multi-GPU execution, GPU utilization, and research into PCIe peer-to-peer transfers, RDMA, and GPU-to-GPU data movement.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>03 / Performance engineering</h3>
-      C++17, AVX2/SIMD, model optimization, profiling, and reproducible latency/throughput benchmarks.
+      <strong>03 · Performance Engineering</strong><br />
+      C++17, AVX2/SIMD, benchmarking, latency and throughput analysis, and model optimization.
     </td>
     <td width="50%" valign="top">
-      <h3>04 / Observability & AI research</h3>
-      Request tracing and metrics with the LGTM stack, plus work in computer vision, reinforcement learning, OCR, and document intelligence.
+      <strong>04 · Observability</strong><br />
+      Inference request tracing, metrics, logs, dashboards, and system monitoring with Grafana, Loki, Tempo, and Mimir.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <strong>05 · Applied AI Research</strong><br />
+      Deep learning, computer vision, pose estimation, reinforcement learning, OCR, and document intelligence.
     </td>
   </tr>
 </table>
 
-## How I think about inference systems
+## Technology Stack
 
-<img src="./assets/inference-architecture.svg" alt="LLM inference architecture: requests flow through a router and scheduler to model workers and GPUs, with telemetry and GPU data movement tracked across the system" width="100%" />
-
-My interests sit at the boundaries between **model serving, scheduling, GPU memory movement, and observability**. I like measuring how an infrastructure decision changes latency, throughput, GPU utilization, and reliability under a real workload.
-
-## Selected engineering work
-
-<table>
-  <tr>
-    <td align="center" width="33%" valign="top">
-      <h2>2.4×</h2>
-      <strong>Faster tokenizer encoding</strong><br />
-      <sub>SIMD-accelerated Qwen3 BPE tokenizer in C++17, benchmarked against Hugging Face tokenizers.</sub>
-    </td>
-    <td align="center" width="33%" valign="top">
-      <h2>72%</h2>
-      <strong>Smaller vision model</strong><br />
-      <sub>Compressed a 1.2 GB model to 340 MB using 4-bit post-training quantization for edge deployment.</sub>
-    </td>
-    <td align="center" width="33%" valign="top">
-      <h2>~1.2K</h2>
-      <strong>Requests per second</strong><br />
-      <sub>Measured in an experimental LLM serving setup; results depend on workload and hardware configuration.</sub>
-    </td>
-  </tr>
-</table>
-
-## Technology stack
-
-<p>
-  <strong>Inference & ML</strong><br />
-  <img src="https://img.shields.io/badge/PyTorch-172033?style=flat-square&logo=pytorch&logoColor=EE4C2C" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/vLLM-172033?style=flat-square&logoColor=white" alt="vLLM" />
-  <img src="https://img.shields.io/badge/SGLang-172033?style=flat-square&logoColor=white" alt="SGLang" />
-  <img src="https://img.shields.io/badge/CUDA-172033?style=flat-square&logo=nvidia&logoColor=76B900" alt="CUDA" />
-  <img src="https://img.shields.io/badge/Computer_Vision-172033?style=flat-square&logo=opencv&logoColor=white" alt="Computer vision" />
-</p>
-<p>
-  <strong>Systems & infrastructure</strong><br />
-  <img src="https://img.shields.io/badge/C%2B%2B17-172033?style=flat-square&logo=c%2B%2B&logoColor=9BD3FF" alt="C++17" />
-  <img src="https://img.shields.io/badge/Python-172033?style=flat-square&logo=python&logoColor=FACC15" alt="Python" />
-  <img src="https://img.shields.io/badge/Linux-172033?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
-  <img src="https://img.shields.io/badge/Docker-172033?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-172033?style=flat-square&logo=kubernetes&logoColor=326CE5" alt="Kubernetes" />
-</p>
-<p>
-  <strong>Observability & tools</strong><br />
-  <img src="https://img.shields.io/badge/Grafana-172033?style=flat-square&logo=grafana&logoColor=F46800" alt="Grafana" />
-  <img src="https://img.shields.io/badge/Prometheus-172033?style=flat-square&logo=prometheus&logoColor=E6522C" alt="Prometheus" />
-  <img src="https://img.shields.io/badge/Git-172033?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
-  <img src="https://img.shields.io/badge/Qdrant-172033?style=flat-square&logoColor=white" alt="Qdrant" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-172554?style=for-the-badge&logo=python&logoColor=FACC15" alt="Python" />
+  <img src="https://img.shields.io/badge/C%2B%2B17-172554?style=for-the-badge&logo=c%2B%2B&logoColor=9BD3FF" alt="C++17" />
+  <img src="https://img.shields.io/badge/PyTorch-172554?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/vLLM-172554?style=for-the-badge&logoColor=white" alt="vLLM" />
+  <img src="https://img.shields.io/badge/SGLang-172554?style=for-the-badge&logoColor=white" alt="SGLang" />
+  <img src="https://img.shields.io/badge/CUDA-172554?style=for-the-badge&logo=nvidia&logoColor=76B900" alt="CUDA" />
+  <img src="https://img.shields.io/badge/Linux-172554?style=for-the-badge&logo=linux&logoColor=white" alt="Linux" />
+  <img src="https://img.shields.io/badge/Docker-172554?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-172554?style=for-the-badge&logo=kubernetes&logoColor=326CE5" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Git-172554?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
 </p>
 
-## 3D contribution graph
+## 3D Contribution Graph
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D GitHub contribution graph. The setup preview is replaced by your contribution graph after the workflow runs." width="100%" />
-  <sub>Generated from GitHub contribution activity. The first successful workflow run replaces the setup preview with your graph.</sub>
+
+<img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D GitHub contribution graph" width="100%" />
+
 </div>
 
----
-
 <div align="center">
-  <sub>Interested in efficient inference, GPU systems, and performance engineering.</sub>
+  <sub>Researching and building systems for faster, more efficient AI inference.</sub>
 </div>
